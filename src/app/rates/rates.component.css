@@ -1,0 +1,12 @@
+.rate{
+
+  
+display: flex;
+overflow: scroll;
+}
+.rateElement{
+    border:1px solid gray;
+    margin:5px;
+padding: 5px 3px;
+
+}

@@ -1,0 +1,18 @@
+<div class="exchange">
+  <div>
+    <select [(ngModel)]="this.cc1" (change)="getRate()">
+      <option>UAH</option>
+      <option *ngFor="let iterRate of element">{{ iterRate.cc }}</option>
+    </select>
+    <input [(ngModel)]="this.value1" type="number" (ngModelChange)="calc1()" />
+  </div>
+  =
+
+  <div>
+    <select [(ngModel)]="this.cc2" (change)="getRate()">
+      <option>UAH</option>
+      <option *ngFor="let iterRate of element">{{ iterRate.cc }}</option>
+    </select>
+    <input [(ngModel)]="this.value2" type="number" (ngModelChange)="calc2()" />
+  </div>
+</div>

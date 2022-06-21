@@ -1,0 +1,10 @@
+.exchange {
+  margin-top: 30vh;
+  margin-left: 20vw;
+  display: flex;
+  border: 2px dotted goldenrod;
+  width: 480px;
+
+  border-radius: 15px;
+  padding: 20px;
+}
