@@ -3,10 +3,19 @@
   
 display: flex;
 overflow: scroll;
+overflow-y: hidden;
 }
 .rateElement{
     border:1px solid gray;
     margin:5px;
 padding: 5px 3px;
 
+}
+.rateT{
+    height: 80%;
+}
+.rateN{
+    border-top: 1px dotted gray;
+   
+    
 }
